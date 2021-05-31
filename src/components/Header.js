@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Logo from "../assets/img/logo.png";
 import { Link } from "react-router-dom";
 import Layout from "./Layout";
@@ -16,11 +16,10 @@ export default function Header() {
           <div className="flex items-center border-blue-nomad border-2 px-4 rounded-lg hover:bg-blue-nomad hover:text-white active:bg-white active:text-black cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="h-6 w-4"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="w-4"
             >
               <path
                 strokeLinecap="round"
