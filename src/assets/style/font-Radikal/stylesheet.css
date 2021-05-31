@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Radikal-bold";
+  src: url("Radikal-Bold.eot");
+  src: url("Radikal-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Radikal-Bold.woff2") format("woff2"),
+    url("Radikal-Bold.woff") format("woff"),
+    url("Radikal-Bold.ttf") format("truetype"),
+    url("Radikal-Bold.svg#Radikal-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

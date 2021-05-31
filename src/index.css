@@ -1,1 +1,29 @@
 /* Reset rules */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .h-layout {
+    min-height: calc(100vh - theme("spacing.380px"));
+  }
+}
+
+@layer components {
+  .footer-part {
+    @apply flex flex-col px-12 flex-shrink-0 pb-8;
+  }
+  .footer-part-list {
+    @apply text-gray-500 text-sm;
+  }
+  .footer-part-list li {
+    @apply cursor-pointer;
+  }
+  .footer-part-list-item {
+    @apply flex items-center space-x-4;
+  }
+  .statistics {
+    @apply flex flex-col min-w-20px space-y-2 hover:animate-bounce;
+  }
+}
